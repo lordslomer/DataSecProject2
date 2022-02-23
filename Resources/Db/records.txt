@@ -1,0 +1,8 @@
+Patient=5
+Doctor=1,Nurse=3
+2022-02-23 01:56:09-testt
+2022-02-23 01:56:52-test
+2022-02-23 01:57:18-final test
+2022-02-23 01:58:13-Wooow it worked
+2022-02-23 01:58:44-Even nurse can....
+ENDOFRECORD
