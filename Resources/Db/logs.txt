@@ -61,3 +61,6 @@
 2022-02-23 01:58:48: Nurse 1 viewed Patient 1 records
 2022-02-23 01:59:02: Patient 1 viewed Patient 1 records
 2022-02-23 01:59:10: Governmnet viewed Patient 1 records
+2022-03-02 16:45:06: Doctor 1 listed patients that have associated records: Patient 1
+2022-03-02 16:45:09: Doctor 1 listed records of Division 1 Patient 1
+2022-03-02 16:45:11: Doctor 1 viewed Patient 1 records
