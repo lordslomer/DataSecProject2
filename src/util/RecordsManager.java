@@ -75,11 +75,17 @@ public class RecordsManager {
         }
 	}
 	
-	public Records getRecord(String patientId, String doctorOrNurseId) {
-		if(allRecords.containsKey(patientId))for(Records r : allRecords.get(patientId))if(r.getDoctorId().equals(doctorOrNurseId) || r.getNurseId().equals(doctorOrNurseId))return r;
-		return null;
+	public ArrayList<Records> getRecordThird(String patientId, String doctorOrNurseId) {
+		ArrayList<Records> rec = new ArrayList<Records>();
+		if(allRecords.containsKey(patientId))for(Records r : allRecords.get(patientId))if((r.getDoctorId().equals(doctorOrNurseId) || r.getNurseId().equals(doctorOrNurseId)) || (accMan.getPersonFromId(patientId).getDiv().equals(accMan.getPersonFromId(doctorOrNurseId).getDiv())))rec.add(r);
+		return rec;
 	}
 	
+	public Records getRecord(String patientId, String doctorOrNurseId) {
+		if(allRecords.containsKey(patientId))for(Records r : allRecords.get(patientId))
+			if(r.getDoctorId().equals(doctorOrNurseId) || r.getNurseId().equals(doctorOrNurseId))return r;
+		return null;
+	}	
 	public ArrayList<Patient> getPatientsForDivision(Person doctorOrNurse){
 		ArrayList<Patient> patients = doctorOrNurse.getDiv().getMembers();
 		for(int i = 0; i < patients.size();i++)if(!allRecords.containsKey(patients.get(i).getId()))patients.remove(i);

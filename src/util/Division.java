@@ -27,6 +27,11 @@ public class Division {
 		return id;
 	}
 	
+	public boolean equals(Object other) {
+		if(other instanceof Division && ((Division) other).getId().equals(id))return true;
+		return false;
+	}
+	
 	public String toString() {
 		return name;
 	}

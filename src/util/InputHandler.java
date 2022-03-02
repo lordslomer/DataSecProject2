@@ -73,9 +73,7 @@ public class InputHandler {
 					records = allRec.getAllPatientRecords(inputPatId);
 					if(records == null)records = new ArrayList<Records>();
 				}else {
-					records = new ArrayList<Records>();
-					Records rec = allRec.getRecord(inputPatId,user.getId());
-					if(rec != null)records.add(rec);
+					records = allRec.getRecordThird(inputPatId,user.getId());
 				}
 			} 
 			Person patient = accMan.getPersonFromId(inputPatId);

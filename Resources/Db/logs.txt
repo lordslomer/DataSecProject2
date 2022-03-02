@@ -64,3 +64,37 @@
 2022-03-02 16:45:06: Doctor 1 listed patients that have associated records: Patient 1
 2022-03-02 16:45:09: Doctor 1 listed records of Division 1 Patient 1
 2022-03-02 16:45:11: Doctor 1 viewed Patient 1 records
+2022-03-02 16:49:14: Doctor 1 listed patients that have associated records: Patient 1
+2022-03-02 16:49:16: Doctor 1 listed records of Division 1 Patient 1
+2022-03-02 16:49:55: Doctor 1 created patient record for Patient 2 Nurse 2
+2022-03-02 16:50:17: Doctor 1 wrote in record for Patient 2
+2022-03-02 16:50:21: Doctor 1 listed patients that have associated records: Patient 1,Patient 2
+2022-03-02 16:50:23: Doctor 1 listed records of Division 1 Patient 1,Patient 2
+2022-03-02 16:50:40: Doctor 1 viewed Patient 2 records
+2022-03-02 16:51:01: Governmnet viewed Patient 2 records
+2022-03-02 16:51:06: Governmnet deleted patient record for Patient 2
+2022-03-02 16:51:44: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 16:52:27: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:01:15: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:01:17: Doctor 2 viewed Patient 1 records
+2022-03-02 17:02:11: Doctor 2 wrote in record for Patient 1
+2022-03-02 17:02:16: Doctor 2 viewed Patient 1 records
+2022-03-02 17:06:29: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:06:33: Doctor 2 viewed Patient 1 records
+2022-03-02 17:07:28: Doctor 2 created patient record for Patient 1 Nurse 1
+2022-03-02 17:07:32: Doctor 2 listed patients that have associated records: Patient 1
+2022-03-02 17:07:34: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:07:43: Doctor 2 viewed Patient 1 records
+2022-03-02 17:08:23: Doctor 2 wrote in record for Patient 1
+2022-03-02 17:08:26: Doctor 2 viewed Patient 1 records
+2022-03-02 17:08:34: Doctor 2 listed patients that have associated records: Patient 1
+2022-03-02 17:08:37: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:18:22: Doctor 2 listed patients that have associated records: Patient 1
+2022-03-02 17:18:24: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:18:26: Doctor 2 viewed Patient 1 records
+2022-03-02 17:19:34: Nurse 1 listed patients that have associated records: Patient 1,Patient 1
+2022-03-02 17:20:55: Nurse 1 wrote in record for Patient 1
+2022-03-02 17:20:59: Nurse 1 viewed Patient 1 records
+2022-03-02 17:21:54: Nurse 1 listed records of Division 1 Patient 1
+2022-03-02 17:21:56: Nurse 1 viewed Patient 1 records
+2022-03-02 17:22:03: Nurse 1 wrote in record for Patient 1
