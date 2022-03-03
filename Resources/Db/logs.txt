@@ -98,3 +98,4 @@
 2022-03-02 17:21:54: Nurse 1 listed records of Division 1 Patient 1
 2022-03-02 17:21:56: Nurse 1 viewed Patient 1 records
 2022-03-02 17:22:03: Nurse 1 wrote in record for Patient 1
+2022-03-02 18:39:14: Doctor 2 viewed Patient 1 records

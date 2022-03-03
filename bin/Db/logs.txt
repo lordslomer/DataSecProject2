@@ -89,3 +89,12 @@
 2022-03-02 17:08:26: Doctor 2 viewed Patient 1 records
 2022-03-02 17:08:34: Doctor 2 listed patients that have associated records: Patient 1
 2022-03-02 17:08:37: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:18:22: Doctor 2 listed patients that have associated records: Patient 1
+2022-03-02 17:18:24: Doctor 2 listed records of Division 1 Patient 1
+2022-03-02 17:18:26: Doctor 2 viewed Patient 1 records
+2022-03-02 17:19:34: Nurse 1 listed patients that have associated records: Patient 1,Patient 1
+2022-03-02 17:20:55: Nurse 1 wrote in record for Patient 1
+2022-03-02 17:20:59: Nurse 1 viewed Patient 1 records
+2022-03-02 17:21:54: Nurse 1 listed records of Division 1 Patient 1
+2022-03-02 17:21:56: Nurse 1 viewed Patient 1 records
+2022-03-02 17:22:03: Nurse 1 wrote in record for Patient 1
