@@ -77,10 +77,8 @@ public class Client {
 			} catch (Exception e) {
 				throw new IOException(e.getMessage());
 			}
-
+			System.out.println("");
 			SSLSocket socket = (SSLSocket) factory.createSocket(host, port);
-			System.out.println("\nsocket before handshake:\n" + socket + "\n");
-
 			/*
 			 * send http request
 			 *
@@ -92,9 +90,6 @@ public class Client {
 			SSLSession session = socket.getSession();
 			Certificate[] cert = session.getPeerCertificates();
 			String subject = ((X509Certificate) cert[0]).getSubjectX500Principal().getName();
-			System.out.println("certificate name (subject DN field) on certificate received from server:\n" + subject + "\n");
-			System.out.println("socket after handshake:\n" + socket + "\n");
-			System.out.println("secure connection established\n\n");
 			PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 			BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			out.println(username);

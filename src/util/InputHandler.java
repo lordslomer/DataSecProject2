@@ -153,7 +153,7 @@ public class InputHandler {
 		} else if (person instanceof Patient) {
 			options.append("Enter 3 to read your patient record\n");
 		}
-		options.append("\nEnter \"quit\" or \"exit\" to log off\n");
+		options.append("\nEnter \"quit\" or \"exit\" to log off");
 		return options.toString();
 	}
 

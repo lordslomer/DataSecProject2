@@ -23,10 +23,11 @@ public class Server implements Runnable {
 	public void run() {
 		try {
 			SSLSocket socket = (SSLSocket) serverSocket.accept();
+			System.out.println("\nsocket before handshake:\n" + socket);
 			newListener();
 			SSLSession session = socket.getSession();
-			System.out.println(session.getCipherSuite());
 			Certificate[] cert = session.getPeerCertificates();
+			System.out.println("socket after handshake:\n" + socket + "\n");
 			String subject = ((X509Certificate) cert[0]).getSubjectX500Principal().getName();
 			numConnectedClients++;
 			System.out.println("client connected");
